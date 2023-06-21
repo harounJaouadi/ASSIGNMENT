@@ -1,0 +1,62 @@
+.country-list {
+  list-style: none;
+  padding: 0;
+}
+
+.country {
+  background-color: #c2e8c2; 
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.country-name {
+  font-weight: bold;
+  color: #005700; 
+}
+
+.country-region {
+  color: #004400; 
+}
+
+.country-area {
+  color: #008000; 
+}
+
+.list-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #008000; 
+  text-align: center;
+  margin-bottom: 20px;
+}
+.all-buttons{
+  display: flex;
+  justify-content: space-between;
+}
+
+.custom-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #4CAF50; 
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin:3px ;
+  transition: background-color 0.3s ease;
+}
+
+.custom-button:hover {
+  background-color: #45a049; 
+}
+
+.custom-button:focus {
+  outline: none;
+}
+
+.custom-button:active {
+  background-color: #3e8e41;
+}
